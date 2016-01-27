@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+  <string>defmodule ${1:MyCustomMatcher}
+  defp match(${3:subject}, ${4:number}) do
+    result = rem(${4:number}, ${3:subject})
+    {result == 0, result}
+  end
+
+  defp success_message(${3:subject}, ${4:number}, ${5:_result}, ${6:positive}) do
+    to = if ${6:positive}, do: "is", else: "is not"
+    "`#{inspect ${3:subject}}` #{to} the divisor of #{${4:number}}."
+  end
+
+  defp error_message(${3:subject}, ${4:number}, ${5:result}, ${6:positive}) do
+    to = if ${6:positive}, do: "to", else: "not to"
+    "Expected `#{inspect ${3:subject}}` #{to} be the divisor of `#{${4:number}}`, but the remainder is '#{${5:result}}'."
+  end
+end</string>
+	<key>name</key>
+	<string>Custom Matcher</string>
+	<key>scope</key>
+	<string>source.elixir.espec</string>
+	<key>tabTrigger</key>
+	<string>cusmat</string>
+	<key>uuid</key>
+	<string>55BF6C99-B4C4-4772-B7DC-0A18407E429C</string>
+</dict>
+</plist>
