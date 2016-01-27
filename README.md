@@ -1,15 +1,13 @@
 # ESpec Package for Sublime Text 2/3
 
-Based on the awesome [RSpec Package for Sublime Text 2/3][https://github.com/SublimeText/RSpec]
+Based on the awesome [RSpec Package for Sublime Text 2/3](https://github.com/SublimeText/RSpec)
 
 ## Description
 
-[ESpec][espec] is a Behavior-Driven Development testing framework for Elixir.
+[ESpec](https://github.com/antonmi/espec) is a Behavior-Driven Development testing framework for Elixir.
 ESpec is inspired by RSpec and the main idea is to be close to its perfect DSL.
 This package adds support to Sublime Text 2 and 3 for specifying and testing Elixir applications with ESpec.
 It contains extra syntax highlighting and many snippets.
-
-[rspec]: https://github.com/antonmi/espec
 
 ## Installation
 
