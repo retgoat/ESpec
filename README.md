@@ -11,6 +11,9 @@ It contains extra syntax highlighting and many snippets.
 
 ## Installation
 
+It so not present in Package Control yet, so you need to install it manually.
+
+Just copy ESpec.sublime-package to your Sublime pakages directory.
 <!-- Recommended: install via [Package Control][package-control].
 
 Alternative (especially if you want to develop the package further): Clone (your fork of) the repository into your Sublime Text Packages directory.

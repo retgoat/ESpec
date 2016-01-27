@@ -1,0 +1,11 @@
+============ 2015-01-27 =============
+
+ESpec package initial release
+
+Recent changes:
+
+* package created
+
+Please file bug reports at https://github.com/retgoat/ESpec/issues
+
+This release was done by Roman Sotnikov (@retgoat), feel free to @ when reporting bugs and sending PRs.
