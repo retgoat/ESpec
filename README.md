@@ -11,7 +11,7 @@ It contains extra syntax highlighting and many snippets.
 
 ## Installation
 
-Recommended: install via [Package Control][https://packagecontrol.io].
+Recommended: install via [Package Control](https://packagecontrol.io).
 
 Alternative (especially if you want to develop the package further): Clone (your fork of) the repository into your Sublime Text Packages directory.
 
