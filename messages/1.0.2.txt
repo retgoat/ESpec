@@ -1,0 +1,11 @@
+============ 2015-01-28 =============
+
+Update README.md
+
+Recent changes:
+
+* ESpec added to Package control.
+
+Please file bug reports at https://github.com/retgoat/ESpec/issues
+
+This release was done by Roman Sotnikov (@retgoat), feel free to @ when reporting bugs and sending PRs.
