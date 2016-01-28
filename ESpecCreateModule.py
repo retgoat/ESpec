@@ -3,7 +3,7 @@ import re
 
 from textwrap import dedent
 
-if str(sublime.version()).startswith("3"):
+if int(sublime.version()) < 3000:
   from .ESpecShared import other_group_in_pair
 else
   from ESpecShared import other_group_in_pair

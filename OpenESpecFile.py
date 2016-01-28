@@ -2,7 +2,7 @@ import sublime
 import sublime_plugin
 import re, inspect, os
 
-if str(sublime.version()).startswith("3"):
+if int(sublime.version()) < 3000:
   from . import ESpecShared
 else
   from ESpec import ESpecShared
