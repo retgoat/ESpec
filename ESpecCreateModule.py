@@ -2,8 +2,11 @@ import sublime, sublime_plugin, time
 import re
 
 from textwrap import dedent
-from ESpec.shared import other_group_in_pair
 
+if str(sublime.version()).startswith("3"):
+  from .ESpecShared import other_group_in_pair
+else
+  from ESpecShared import other_group_in_pair
 
 def snake_case(name):
     s1 = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', name)

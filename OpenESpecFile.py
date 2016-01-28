@@ -1,7 +1,11 @@
 import sublime
 import sublime_plugin
 import re, inspect, os
-from ESpec import shared
+
+if str(sublime.version()).startswith("3"):
+  from . import ESpecShared
+else
+  from ESpec import ESpecShared
 
 class OpenEspecFileCommand(sublime_plugin.WindowCommand):
 
