@@ -22,7 +22,7 @@ Alternative (especially if you want to develop the package further): Clone (your
 
 ## Features
 
-* RSpec.tmLanguage: plugin automatically uses *ESpec language syntax* when you are in a ESpec file
+* ESpec.tmLanguage: plugin automatically uses *ESpec language syntax* when you are in a ESpec file
 * Large amount of *ESpec* snippets
 
 ##Contributing
