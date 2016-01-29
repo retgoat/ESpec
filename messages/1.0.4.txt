@@ -1,0 +1,9 @@
+============ 2015-01-29 =============
+
+Recent changes:
+
+* Fixed bug when `it do: expr` one-liner breakes `context "desc" do … end` syntax highlight
+
+Please file bug reports at https://github.com/retgoat/ESpec/issues
+
+This release was done by Roman Sotnikov (@retgoat), feel free to @ when reporting bugs and sending PRs.
