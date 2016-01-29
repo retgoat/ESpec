@@ -1,0 +1,10 @@
+[
+  {
+    "caption": "ESpec: open corresponding file",
+    "command": "open_espec_file"
+  },
+  {
+    "caption": "ESpec: create new module",
+    "command": "espec_create_module"
+  }
+]

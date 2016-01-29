@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[expect ${1:smth} |> to(have ${2:value})$0]]></content>
+    <tabTrigger>exphaven</tabTrigger>
+    <scope>source.elixir.espec</scope>
+    <description>expect smth |> to(have value)</description>
+</snippet>

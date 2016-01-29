@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[expect ${1:String} |> to(be_valid_string)$0]]></content>
+    <tabTrigger>expbvsn</tabTrigger>
+    <scope>source.elixir.espec</scope>
+    <description>expect String |> to(be_valid_string)</description>
+</snippet>

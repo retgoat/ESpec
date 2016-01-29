@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[xit "${1:description}" do: "${2:skipped}"]]></content>
+    <tabTrigger>xitn</tabTrigger>
+    <scope>source.elixir.espec</scope>
+    <description>xit "description" do: "skipped"</description>
+</snippet>

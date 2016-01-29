@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[xit "${1:description}" do
+	$0
+end]]></content>
+    <tabTrigger>xitb</tabTrigger>
+    <scope>source.elixir.espec</scope>
+    <description>xit "description" do … end</description>
+</snippet>

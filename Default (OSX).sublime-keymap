@@ -1,0 +1,15 @@
+[
+	{
+		"keys": ["super+alt+b"],
+		"command": "exec",
+		"args": {"cmd": ["mix", "espec", "*"]},
+		"file_regex": "# ([A-Za-z0-9_./ ]+exs):([0-9]+)",
+		"working_dir": "${folder}"
+	},
+
+	{
+		"keys": ["super+period+e"],
+		"command": "open_rspec_file",
+		"args": {}
+	}
+]

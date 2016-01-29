@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[expect ${1:func1} |> to(change ${2:func2}, ${3:value})$0]]></content>
+    <tabTrigger>expchng</tabTrigger>
+    <scope>source.elixir.espec</scope>
+    <description>expect func1 |> to(change func2, value)</description>
+</snippet>

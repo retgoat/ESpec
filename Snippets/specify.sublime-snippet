@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[specify "${1:description}", [${2:opts}], do: ${3:smth}]]></content>
+    <tabTrigger>specify</tabTrigger>
+    <scope>source.elixir.espec</scope>
+    <description>specify "description", [opts], do: smth</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[example do: expect ${1:exp} |> to ${2:matcher}]]></content>
+    <tabTrigger>exa</tabTrigger>
+    <scope>source.elixir.espec</scope>
+    <description>example do: exp |> to matcher</description>
+</snippet>

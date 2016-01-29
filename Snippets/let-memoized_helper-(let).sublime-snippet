@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[let :${1:var}, do: ${:expr}]]></content>
+    <tabTrigger>let</tabTrigger>
+    <scope>source.elixir.espec</scope>
+    <description>let :var, do: expr </description>
+</snippet>

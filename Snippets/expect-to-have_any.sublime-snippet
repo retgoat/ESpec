@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[expect(${1:Module}).to have_any(${2:func})}$0]]></content>
+    <tabTrigger>expha</tabTrigger>
+    <scope>source.elixir.espec</scope>
+    <description>expect(Module).to have_any(func)</description>
+</snippet>

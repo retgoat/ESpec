@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[pending "${1:pending example}""]]></content>
+    <tabTrigger>pen</tabTrigger>
+    <scope>source.elixir.espec</scope>
+    <description>pending "pending example"</description>
+</snippet>

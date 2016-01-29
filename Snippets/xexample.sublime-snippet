@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[xexample "${1:skip}", do: "${2:skipped}"]]></content>
+    <tabTrigger>xexa</tabTrigger>
+    <scope>source.elixir.espec</scope>
+    <description>xexample "skip", do: "skipped"</description>
+</snippet>

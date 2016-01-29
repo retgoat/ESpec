@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[expect ${1:smth} |> to(be_list)$0]]></content>
+    <tabTrigger>expbli</tabTrigger>
+    <scope>source.elixir.espec</scope>
+    <description>expect smth |> to(be_list)</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[example_group "${1:description}" do
+  $0
+end]]></content>
+    <tabTrigger>exg</tabTrigger>
+    <scope>source.elixir.espec</scope>
+    <description>example_group "description" do … end</description>
+</snippet>

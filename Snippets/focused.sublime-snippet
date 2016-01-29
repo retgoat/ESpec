@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[focus "${1:Focused}", do: "${2:Focused example}"]]></content>
+    <tabTrigger>foc</tabTrigger>
+    <scope>source.elixir.espec</scope>
+    <description>focus "Focused", do: "Focused example"</description>
+</snippet>
